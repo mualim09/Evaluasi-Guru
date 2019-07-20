@@ -37,7 +37,7 @@ class USER
 					 $s_img = 'data:image/jpeg;base64,'.base64_encode($userRow['user_Img']);
 					}
 					else{
-					  $s_img = "../assets/img/users/default.png";
+					  $s_img = "../assets/img/users/default.jpg";
 					}
 					 $_SESSION['user_Img'] = $s_img;
 					return true;
