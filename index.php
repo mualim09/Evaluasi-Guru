@@ -48,7 +48,7 @@ include('x-script.php');
         </button>
       </div>
 
-      <div class="modal-body" style="background-color: #f5f5f5;">
+      <div class="modal-body" style="background-color: #f5f5f5; border-radius: 0px 0px 5px 5px; ">
           <div class="text-center msg">
                <img src="assets/img/logo/alulod_logo.png" alt="HyperXService Logo" style="width: 100px;">
              
@@ -70,7 +70,7 @@ include('x-script.php');
 
           <div class="checkbox mb-3">
             <label>
-              <input type="checkbox" value="remember-me"> Remember me
+              <input type="checkbox" value="remember-me" onclick="viewPassword()"> Show Password
             </label>
           </div>
 
@@ -82,9 +82,27 @@ include('x-script.php');
     </div>
   </div>
 </div>
+
 <script type="text/javascript">
-
-
+/**
+ function pad(num, size,id){ 
+         
+            var newval = ('000000000' + num).substr(-size); 
+            $(id).val(newval);
+          }
+$(document).on('onkeyup change', $("#inputUsername"), function(el) {
+         
+            pad($(el.target).val(),7,"#inputUsername");
+          });
+**/
+ function viewPassword() {
+            var x = document.getElementById("inputPassword");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
    $(document).on('submit', '#login_form', function(event){
             event.preventDefault();
 
