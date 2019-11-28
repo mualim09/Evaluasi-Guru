@@ -1,8 +1,8 @@
-Alulod-TES - (Teacher Evalustion System)
+Alulod-TES - (Teacher Evaluation System)
 =======================
 
 
-**Alulod-TES - (Teacher Evalustion System)** It was developed with [Bootstrap 4.x Framework](http://getbootstrap.com)
+**Alulod-TES - (Teacher Evaluation System)** It was developed with [Bootstrap 4.x Framework](http://getbootstrap.com)
 
 
 
@@ -44,4 +44,4 @@ See  **[commits](https://github.com/rhalp10/Alulod-TES/commits/master)**
 
 
 # License
-Alulod-TES - (Teacher Evalustion System) licensed as [Apache 2.0 with Commons Clause](https://github.com/rhalp10/Alulod-TES/blob/master/LICENSE.md)
+Alulod-TES - (Teacher Evaluation System) licensed as [Apache 2.0 with Commons Clause](https://github.com/rhalp10/Alulod-TES/blob/master/LICENSE.md)
