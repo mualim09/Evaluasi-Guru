@@ -40,7 +40,6 @@ See  **[commits](https://github.com/rhalp10/Alulod-TES/commits/master)**
 - [DataTables](https://datatables.net) - DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, built upon the foundations of progressive enhancement, that adds all of these advanced features to any HTML table.
 - [Jquery 3.3.1](https://jquery.com) - jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 - [AlertifyJS](https://alertifyjs.com/) - AlertifyJS is a javascript framework for developing pretty browser dialogs and notifications.
-- [jQuery Bootstrap Calendar](https://github.com/zatorck/jquery-bootstrap-year-calendar)  - simple jQuery and Bootstrap 3&4 calendar.
 
 
 # License
