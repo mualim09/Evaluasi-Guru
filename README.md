@@ -1,4 +1,3 @@
-# Alulod-TES
 Alulod-TES - (Teacher Evalustion System)
 =======================
 
